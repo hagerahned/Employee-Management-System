@@ -34,8 +34,32 @@ namespace Employee_Management_System
             string Query = "Select * from DepartmentTbl";
             DepList.DataSource = Con.GetData(Query);
         }
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = "insert into DepartmentTbl values('{0}')";
+                    Query = string.Format(Query, DepNameTb.Text);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department Added!!!");
+                    DepNameTb.Text = "";
+                }
 
-        
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
+
         int key = 0;
         private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -52,32 +76,7 @@ namespace Employee_Management_System
 
         }
 
-        private void DeleteBtn_Click(object sender, EventArgs e)
-        {
-
-            try
-            {
-                if (DepNameTb.Text == "")
-                {
-                    MessageBox.Show("Missing Data!!!");
-                }
-                else
-                {
-                    string Dep = DepNameTb.Text;
-                    string Query = "Delete from DepartmentTbl where DepName='{0}'";
-                    Query = string.Format(Query, Dep);
-                    Con.SetData(Query);
-                    ShowDepartments();
-                    MessageBox.Show("Department Deleted!!!");
-                    DepNameTb.Text = "";
-                }
-
-            }
-            catch (Exception Ex)
-            {
-                MessageBox.Show(Ex.Message);
-            }
-        }
+        
 
         private void EditBtn_Click(object sender, EventArgs e)
         {
@@ -105,6 +104,32 @@ namespace Employee_Management_System
                 MessageBox.Show(Ex.Message);
             }
 
+        }
+        private void DeleteBtn_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = "Delete from DepartmentTbl where DepName='{0}'";
+                    Query = string.Format(Query, Dep);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department Deleted!!!");
+                    DepNameTb.Text = "";
+                }
+
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
 
         private void departments_Load(object sender, EventArgs e)
