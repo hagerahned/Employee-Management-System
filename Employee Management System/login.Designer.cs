@@ -31,7 +31,6 @@ namespace Employee_Management_System
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.UNameTb = new System.Windows.Forms.TextBox();
             this.PasswordTb = new System.Windows.Forms.TextBox();
@@ -58,17 +57,6 @@ namespace Employee_Management_System
             this.label1.Size = new System.Drawing.Size(187, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Employee M S";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(257, 170);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 32);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "User Name";
             // 
             // label3
             // 
@@ -130,7 +118,6 @@ namespace Employee_Management_System
             this.Controls.Add(this.PasswordTb);
             this.Controls.Add(this.UNameTb);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -148,7 +135,6 @@ namespace Employee_Management_System
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox UNameTb;
         private System.Windows.Forms.TextBox PasswordTb;
