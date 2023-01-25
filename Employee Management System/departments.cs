@@ -20,10 +20,7 @@ namespace Employee_Management_System
             ShowDepartments();
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void label2_Click(object sender, EventArgs e)
         {
