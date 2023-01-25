@@ -151,7 +151,7 @@ namespace Employee_Management_System
                     string Name = EmpNameTb.Text;
                     string Gender = GenCb.SelectedItem.ToString();
                     int Dep = Convert.ToInt32(DepCb.SelectedValue.ToString());
-                    //string DOB = DOBTb.Value.Date.ToString();
+                    string DOB = DOBTb.Value.Date.ToString();
                     string JDate = JDateTb.Value.Date.ToString();
                     int salary = Convert.ToInt32(DailySalTb.Text);
                     string Query = "Update EmployeeTbl set EmpName='{0}',EmpGen='{1}',EmpDep='{2}',EmpDOB='{3}',EmpJDate='{4}',EmpSal='{5}'where Empid={6}";
