@@ -18,7 +18,8 @@ namespace Employee_Management_System
         {
             ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\aa\source\Employee Management System\Employee Management System\Database1.mdf;Integrated Security=True";
             Con = new SqlConnection(ConStr);
-           
+            cmd = new SqlCommand();
+            cmd.Connection = Con;
 
         }
         public DataTable GetData(string Query)
