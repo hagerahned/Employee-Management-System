@@ -195,6 +195,7 @@ namespace Employee_Management_System
             }
         }
 
+
         private void SalLbl_Click(object sender, EventArgs e)
         {
             salaryf obj = new salaryf();
