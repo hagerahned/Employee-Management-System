@@ -29,8 +29,8 @@ namespace Employee_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,7 +45,6 @@ namespace Employee_Management_System
             this.label12 = new System.Windows.Forms.Label();
             this.SalLbl = new System.Windows.Forms.Label();
             this.DepLbl = new System.Windows.Forms.Label();
-            this.EmpLbl = new System.Windows.Forms.Label();
             this.EmployeeList = new System.Windows.Forms.DataGridView();
             this.DeleteBtn1 = new System.Windows.Forms.Button();
             this.EmpNameTb = new System.Windows.Forms.TextBox();
@@ -219,32 +218,20 @@ namespace Employee_Management_System
             this.DepLbl.Text = "Departments ";
             this.DepLbl.Click += new System.EventHandler(this.DepLbl_Click);
             // 
-            // EmpLbl
-            // 
-            this.EmpLbl.AutoSize = true;
-            this.EmpLbl.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmpLbl.ForeColor = System.Drawing.Color.Teal;
-            this.EmpLbl.Location = new System.Drawing.Point(468, 148);
-            this.EmpLbl.Name = "EmpLbl";
-            this.EmpLbl.Size = new System.Drawing.Size(125, 32);
-            this.EmpLbl.TabIndex = 62;
-            this.EmpLbl.Text = "Employee ";
-            this.EmpLbl.Click += new System.EventHandler(this.EmpLbl_Click);
-            // 
             // EmployeeList
             // 
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.EmployeeList.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.EmployeeList.ColumnHeadersHeight = 29;
             this.EmployeeList.GridColor = System.Drawing.Color.Teal;
             this.EmployeeList.Location = new System.Drawing.Point(428, 291);
@@ -347,7 +334,6 @@ namespace Employee_Management_System
             this.Controls.Add(this.label12);
             this.Controls.Add(this.SalLbl);
             this.Controls.Add(this.DepLbl);
-            this.Controls.Add(this.EmpLbl);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.DepCb);
@@ -389,7 +375,6 @@ namespace Employee_Management_System
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label SalLbl;
         private System.Windows.Forms.Label DepLbl;
-        private System.Windows.Forms.Label EmpLbl;
         private System.Windows.Forms.DataGridView EmployeeList;
         private System.Windows.Forms.Button DeleteBtn1;
         private System.Windows.Forms.TextBox EmpNameTb;
