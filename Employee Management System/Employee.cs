@@ -140,7 +140,6 @@ namespace Employee_Management_System
                 MessageBox.Show(Ex.Message);
             }
         }
-
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
             try
@@ -158,7 +157,7 @@ namespace Employee_Management_System
                     string JDate = JDateTb.Value.Date.ToString();
                     int salary = Convert.ToInt32(DailySalTb.Text);
                     string Query = "Update EmployeeTbl set EmpName='{0}',EmpGen='{1}',EmpDep='{2}',EmpDOB='{3}',EmpJDate='{4}',EmpSal='{5}'where Empid={6}";
-                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, salary,key);
+                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, salary, key);
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Employee Added!!!");
@@ -176,6 +175,7 @@ namespace Employee_Management_System
             }
 
         }
+
         int key = 0;
         private void EmployeeList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
