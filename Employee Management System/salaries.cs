@@ -20,14 +20,7 @@ namespace Employee_Management_System
             ShowSalries();
             GetEmployees();
         }
-        private void GetEmployees()
-        {
-            string Query = "select * from EmployeeTbl";
-
-            EmpCb.DisplayMember = Con.GetData(Query).Columns["EmpName"].ToString();
-            EmpCb.ValueMember = Con.GetData(Query).Columns["Empid"].ToString();
-            EmpCb.DataSource = Con.GetData(Query);
-        }
+      
         int DSal = 0;
         string period = "";
         private void GetSalary()
