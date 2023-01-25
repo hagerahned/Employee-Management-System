@@ -196,19 +196,19 @@ namespace Employee_Management_System
         }
 
 
+        
+        private void DepLbl_Click(object sender, EventArgs e)
+        {
+            departments obj = new departments();
+            obj.Show();
+            obj.Hide();
+        }
         private void SalLbl_Click(object sender, EventArgs e)
         {
             salaryf obj = new salaryf();
             obj.Show();
             obj.Hide();
 
-        }
-
-        private void DepLbl_Click(object sender, EventArgs e)
-        {
-            departments obj = new departments();
-            obj.Show();
-            obj.Hide();
         }
 
         private void DailySalTb_TextChanged(object sender, EventArgs e)
