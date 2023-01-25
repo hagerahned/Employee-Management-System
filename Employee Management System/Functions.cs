@@ -9,7 +9,9 @@ namespace Employee_Management_System
 {
     class Functions
     {
-        
+        private SqlConnection Con;
+        private SqlCommand cmd;
+        private DataTable dt;
         private SqlDataAdapter sda;
         private string ConStr;
         public Functions()
@@ -20,14 +22,7 @@ namespace Employee_Management_System
             cmd.Connection = Con;
 
         }
-        public DataTable GetData(string Query)
-        {
-            dt = new DataTable();
-            sda = new SqlDataAdapter(Query,Con);
-            sda.Fill(dt);
-            return dt;
-
-        }
+       
         public int SetData(string Query)
         {
             int cnt = 0;
