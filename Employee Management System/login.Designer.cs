@@ -33,7 +33,6 @@ namespace Employee_Management_System
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.ResetLbl = new System.Windows.Forms.Label();
             this.UNameTb = new System.Windows.Forms.TextBox();
             this.PasswordTb = new System.Windows.Forms.TextBox();
             this.LoginBtn = new System.Windows.Forms.Button();
@@ -81,18 +80,6 @@ namespace Employee_Management_System
             this.label3.TabIndex = 5;
             this.label3.Text = "password";
             // 
-            // ResetLbl
-            // 
-            this.ResetLbl.AutoSize = true;
-            this.ResetLbl.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResetLbl.ForeColor = System.Drawing.Color.Teal;
-            this.ResetLbl.Location = new System.Drawing.Point(385, 437);
-            this.ResetLbl.Name = "ResetLbl";
-            this.ResetLbl.Size = new System.Drawing.Size(73, 32);
-            this.ResetLbl.TabIndex = 7;
-            this.ResetLbl.Text = "Reset";
-            this.ResetLbl.Click += new System.EventHandler(this.label4_Click);
-            // 
             // UNameTb
             // 
             this.UNameTb.Location = new System.Drawing.Point(262, 205);
@@ -129,7 +116,6 @@ namespace Employee_Management_System
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.PasswordTb);
             this.Controls.Add(this.UNameTb);
-            this.Controls.Add(this.ResetLbl);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -151,7 +137,6 @@ namespace Employee_Management_System
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label ResetLbl;
         private System.Windows.Forms.TextBox UNameTb;
         private System.Windows.Forms.TextBox PasswordTb;
         private System.Windows.Forms.Button LoginBtn;
