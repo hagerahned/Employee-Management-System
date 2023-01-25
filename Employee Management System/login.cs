@@ -22,6 +22,11 @@ namespace Employee_Management_System
         {
 
         }
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if(UNameTb.Text ==""||PasswordTb.Text=="")
