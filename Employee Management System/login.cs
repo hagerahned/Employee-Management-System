@@ -47,7 +47,7 @@ namespace Employee_Management_System
                 
             }
         }
-        //
+        //button reset
         private void label4_Click(object sender, EventArgs e)
         {
             PasswordTb.Text = "";
