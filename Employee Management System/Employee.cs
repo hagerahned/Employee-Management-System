@@ -125,7 +125,7 @@ namespace Employee_Management_System
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Employee Deleted!!!");
-                    EmpNameTb.Text = "";
+                   // EmpNameTb.Text = "";
                     DailySalTb.Text = "";
                     GenCb.SelectedIndex = -1;
                     DepCb.SelectedIndex = -1;
