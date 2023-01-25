@@ -40,7 +40,6 @@ namespace Employee_Management_System
 
             DepCb.DisplayMember = Con.GetData(Query).Columns["DepName"].ToString();
             DepCb.ValueMember = Con.GetData(Query).Columns["Depid"].ToString();
-
             DepCb.DataSource = Con.GetData(Query);
         }
 
