@@ -153,7 +153,12 @@ namespace Employee_Management_System
             obj.Hide();
         }
 
-        
+        private void label9_Click_1(object sender, EventArgs e)
+        {
+            DeleteBtn obj = new DeleteBtn();
+            obj.Show();
+            obj.Hide();
+        }
 
         private void AmountTb_TextChanged(object sender, EventArgs e)
         {
