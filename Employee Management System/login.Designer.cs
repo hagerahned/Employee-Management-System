@@ -36,6 +36,7 @@ namespace Employee_Management_System
             this.UNameTb = new System.Windows.Forms.TextBox();
             this.PasswordTb = new System.Windows.Forms.TextBox();
             this.LoginBtn = new System.Windows.Forms.Button();
+            this.ResetLbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panel1
@@ -107,12 +108,24 @@ namespace Employee_Management_System
             this.LoginBtn.Text = "LOGIN";
             this.LoginBtn.UseVisualStyleBackColor = true;
             // 
+            // ResetLbl
+            // 
+            this.ResetLbl.AutoSize = true;
+            this.ResetLbl.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetLbl.ForeColor = System.Drawing.Color.Teal;
+            this.ResetLbl.Location = new System.Drawing.Point(390, 437);
+            this.ResetLbl.Name = "ResetLbl";
+            this.ResetLbl.Size = new System.Drawing.Size(73, 32);
+            this.ResetLbl.TabIndex = 11;
+            this.ResetLbl.Text = "Reset";
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(838, 506);
+            this.Controls.Add(this.ResetLbl);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.PasswordTb);
             this.Controls.Add(this.UNameTb);
@@ -140,6 +153,7 @@ namespace Employee_Management_System
         private System.Windows.Forms.TextBox UNameTb;
         private System.Windows.Forms.TextBox PasswordTb;
         private System.Windows.Forms.Button LoginBtn;
+        private System.Windows.Forms.Label ResetLbl;
     }
 }
 
