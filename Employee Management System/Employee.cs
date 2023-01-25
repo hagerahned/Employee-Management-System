@@ -27,12 +27,13 @@ namespace Employee_Management_System
                 string Query = "Select * from EmployeeTbl";
                 EmployeeList.DataSource = Con.GetData(Query);
             }
-            catch(Exception)
+            catch (Exception)
             {
                 throw;
             }
 
         }
+
         private void GetDepartment()
         {
             string Query = "select * from DepartmentTbl";
