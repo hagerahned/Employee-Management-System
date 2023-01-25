@@ -88,7 +88,7 @@ namespace Employee_Management_System
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(659, 233);
+            this.label2.Location = new System.Drawing.Point(674, 250);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(233, 30);
             this.label2.TabIndex = 2;
