@@ -54,19 +54,7 @@ namespace Employee_Management_System
                 AmountTb.Text = "Rs" + (d * DSal);
             }
         }
-        private void ShowSalries()
-        {
-            try
-            {
-                string Query = "Select * from SalaryTbl";
-                SalaryList.DataSource = Con.GetData(Query);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-
-        }
+        
 
         private void label9_Click(object sender, EventArgs e)
         {
