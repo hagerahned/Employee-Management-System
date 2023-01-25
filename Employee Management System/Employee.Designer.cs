@@ -29,8 +29,8 @@ namespace Employee_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,7 +42,6 @@ namespace Employee_Management_System
             this.DailySalTb = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.DOBTb = new System.Windows.Forms.DateTimePicker();
             this.JDateTb = new System.Windows.Forms.DateTimePicker();
             this.AddBtn = new System.Windows.Forms.Button();
             this.UpdateBtn = new System.Windows.Forms.Button();
@@ -54,6 +53,7 @@ namespace Employee_Management_System
             this.DeleteBtn1 = new System.Windows.Forms.Button();
             this.EmpNameTb = new System.Windows.Forms.TextBox();
             this.GenCb = new System.Windows.Forms.ComboBox();
+            this.DepCb = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.EmployeeList)).BeginInit();
             this.SuspendLayout();
@@ -178,15 +178,6 @@ namespace Employee_Management_System
             this.panel2.Size = new System.Drawing.Size(1627, 33);
             this.panel2.TabIndex = 17;
             // 
-            // DOBTb
-            // 
-            this.DOBTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DOBTb.Location = new System.Drawing.Point(42, 540);
-            this.DOBTb.Name = "DOBTb";
-            this.DOBTb.Size = new System.Drawing.Size(315, 34);
-            this.DOBTb.TabIndex = 20;
-            this.DOBTb.Value = new System.DateTime(2023, 1, 24, 4, 27, 4, 0);
-            // 
             // JDateTb
             // 
             this.JDateTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
@@ -269,18 +260,18 @@ namespace Employee_Management_System
             // 
             // EmployeeList
             // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.EmployeeList.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.EmployeeList.ColumnHeadersHeight = 29;
             this.EmployeeList.GridColor = System.Drawing.Color.Teal;
             this.EmployeeList.Location = new System.Drawing.Point(428, 291);
@@ -322,6 +313,14 @@ namespace Employee_Management_System
             this.GenCb.Size = new System.Drawing.Size(315, 32);
             this.GenCb.TabIndex = 73;
             // 
+            // DepCb
+            // 
+            this.DepCb.FormattingEnabled = true;
+            this.DepCb.Location = new System.Drawing.Point(42, 453);
+            this.DepCb.Name = "DepCb";
+            this.DepCb.Size = new System.Drawing.Size(315, 32);
+            this.DepCb.TabIndex = 19;
+            // 
             // DeleteBtn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
@@ -339,7 +338,7 @@ namespace Employee_Management_System
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.JDateTb);
-            this.Controls.Add(this.DOBTb);
+            this.Controls.Add(this.DepCb);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.DailySalTb);
@@ -377,7 +376,6 @@ namespace Employee_Management_System
         private System.Windows.Forms.TextBox DailySalTb;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DateTimePicker DOBTb;
         private System.Windows.Forms.DateTimePicker JDateTb;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Button UpdateBtn;
@@ -389,5 +387,6 @@ namespace Employee_Management_System
         private System.Windows.Forms.Button DeleteBtn1;
         private System.Windows.Forms.TextBox EmpNameTb;
         private System.Windows.Forms.ComboBox GenCb;
+        private System.Windows.Forms.ComboBox DepCb;
     }
 }
