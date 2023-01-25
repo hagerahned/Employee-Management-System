@@ -170,16 +170,17 @@ namespace Employee_Management_System
 
         }
 
+        
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
         private void label12_Click_1(object sender, EventArgs e)
         {
             login obj = new login();
             obj.Show();
             obj.Hide();
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
         }
         private void label4_Click(object sender, EventArgs e)
         {
