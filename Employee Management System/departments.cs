@@ -132,10 +132,7 @@ namespace Employee_Management_System
             }
         }
 
-        private void departments_Load(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void EmbLbl_Click(object sender, EventArgs e)
         {
