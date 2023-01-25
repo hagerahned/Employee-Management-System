@@ -57,16 +57,16 @@ namespace Employee_Management_System
         {
 
         }
+        private void label10_Click(object sender, EventArgs e)
+        {
 
+        }
         private void Employee_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void EmpLbl_Click(object sender, EventArgs e)
         {
