@@ -15,8 +15,7 @@ namespace Employee_Management_System
         Functions Con;
         public salaryf()
         {
-            InitializeComponent();
-            Con = new Functions();
+           
             ShowSalries();
             GetEmployees();
         }
