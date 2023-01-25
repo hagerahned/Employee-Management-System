@@ -181,7 +181,7 @@ namespace Employee_Management_System
             GenCb.Text = EmployeeList.CurrentRow.Cells[2].Value.ToString();
             DepCb.SelectedValue = EmployeeList.CurrentRow.Cells[3].Value.ToString();
             DOBTb.Text = EmployeeList.CurrentRow.Cells[4].Value.ToString();
-            DailySalTb.Text = EmployeeList.CurrentRow.Cells[6].Value.ToString();
+            //DailySalTb.Text = EmployeeList.CurrentRow.Cells[6].Value.ToString();
             JDateTb.Text = EmployeeList.CurrentRow.Cells[5].Value.ToString();
             if (EmpNameTb.Text == "")
             {
