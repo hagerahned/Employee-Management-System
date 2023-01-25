@@ -68,9 +68,6 @@ namespace Employee_Management_System
         {
 
         }
-
-       
-
         private void label12_Click(object sender, EventArgs e)
         {
 
