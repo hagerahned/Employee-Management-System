@@ -24,8 +24,11 @@ namespace Employee_Management_System
 
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
 
-       
+        }
+
         private void ShowDepartments()
         {
             string Query = "Select * from DepartmentTbl";
