@@ -24,7 +24,7 @@ namespace Employee_Management_System
         {
             try
             {
-                string Query = "Select  from EmployeeTbl";
+                string Query = "Select * from EmployeeTbl";
                 EmployeeList.DataSource = Con.GetData(Query);
             }
             catch (Exception)
