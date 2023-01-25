@@ -107,8 +107,40 @@ namespace Employee_Management_System
             this.Hide();
         }
         int d = 1;
-        
 
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                if (EmpCb.SelectedIndex == -1 || DaysTb.Text == "" || PeriodTb.Text == "")
+                {
+                    MessageBox.Show("missing data!!!!!");
+                }
+                else
+                {
+                    period = PeriodTb.Value.Date.Month.ToString() + "-" + PeriodTb.Value.Date.Year.ToString();
+                    int Amount = DSal * Convert.ToInt32(DaysTb.Text);
+                    int Days = DSal * Convert.ToInt32(DaysTb.Text);
+
+                    string Query = "insert SalaryTbl values({0},{1},'{2}',{3},'{4}')";
+                    Query = string.Format(Query, EmpCb.SelectedValue.ToString(), Days, period, DateTime.Today.Date);
+                    Con.SetData(Query);
+                    ShowSalries();
+                    MessageBox.Show("salaries paid!!!");
+                    DaysTb.Text = "";
+
+
+
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+
+
+        }
         private void EmpCb_SelectionChangeCommitted(object sender, EventArgs e)
         {
             GetSalary();
