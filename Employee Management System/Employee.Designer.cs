@@ -29,8 +29,8 @@ namespace Employee_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,6 +54,7 @@ namespace Employee_Management_System
             this.DailySalTb = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.EmpLbl = new System.Windows.Forms.Label();
+            this.DepLbl = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.EmployeeList)).BeginInit();
             this.SuspendLayout();
@@ -208,18 +209,18 @@ namespace Employee_Management_System
             // 
             // EmployeeList
             // 
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
             this.EmployeeList.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.EmployeeList.ColumnHeadersHeight = 29;
             this.EmployeeList.GridColor = System.Drawing.Color.Teal;
             this.EmployeeList.Location = new System.Drawing.Point(428, 291);
@@ -316,12 +317,24 @@ namespace Employee_Management_System
             this.EmpLbl.TabIndex = 78;
             this.EmpLbl.Text = "Employee ";
             // 
+            // DepLbl
+            // 
+            this.DepLbl.AutoSize = true;
+            this.DepLbl.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DepLbl.ForeColor = System.Drawing.Color.Teal;
+            this.DepLbl.Location = new System.Drawing.Point(662, 148);
+            this.DepLbl.Name = "DepLbl";
+            this.DepLbl.Size = new System.Drawing.Size(159, 32);
+            this.DepLbl.TabIndex = 79;
+            this.DepLbl.Text = "Departments ";
+            // 
             // DeleteBtn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1627, 931);
+            this.Controls.Add(this.DepLbl);
             this.Controls.Add(this.EmpLbl);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.DailySalTb);
@@ -383,5 +396,6 @@ namespace Employee_Management_System
         private System.Windows.Forms.TextBox DailySalTb;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label EmpLbl;
+        private System.Windows.Forms.Label DepLbl;
     }
 }
