@@ -115,13 +115,13 @@ namespace Employee_Management_System
         {
             try
             {
-                if (key==0)
+                if (key == 0)
                 {
                     MessageBox.Show("Missing Data!!!");
                 }
                 else
                 {
-                    
+
                     string Query = "delete from EmployeeTbl where Empid={0}";
                     Query = string.Format(Query, key);
                     Con.SetData(Query);
