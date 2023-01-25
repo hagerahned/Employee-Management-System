@@ -36,6 +36,7 @@ namespace Employee_Management_System
             this.LoginBtn = new System.Windows.Forms.Button();
             this.ResetLbl = new System.Windows.Forms.Label();
             this.UNameTb = new System.Windows.Forms.TextBox();
+            this.PasswordTb = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // panel1
@@ -112,12 +113,21 @@ namespace Employee_Management_System
             this.UNameTb.Size = new System.Drawing.Size(316, 49);
             this.UNameTb.TabIndex = 8;
             // 
+            // PasswordTb
+            // 
+            this.PasswordTb.Location = new System.Drawing.Point(262, 307);
+            this.PasswordTb.Multiline = true;
+            this.PasswordTb.Name = "PasswordTb";
+            this.PasswordTb.Size = new System.Drawing.Size(316, 49);
+            this.PasswordTb.TabIndex = 9;
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(838, 506);
+            this.Controls.Add(this.PasswordTb);
             this.Controls.Add(this.UNameTb);
             this.Controls.Add(this.ResetLbl);
             this.Controls.Add(this.LoginBtn);
@@ -145,6 +155,7 @@ namespace Employee_Management_System
         private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Label ResetLbl;
         private System.Windows.Forms.TextBox UNameTb;
+        private System.Windows.Forms.TextBox PasswordTb;
     }
 }
 
