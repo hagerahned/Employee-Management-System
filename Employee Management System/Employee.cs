@@ -219,6 +219,7 @@ namespace Employee_Management_System
         private void DailySalTb_TextChanged(object sender, EventArgs e)
         {
 
+        }
         
     }
 }
