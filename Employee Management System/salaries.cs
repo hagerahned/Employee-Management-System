@@ -17,7 +17,8 @@ namespace Employee_Management_System
         {
             InitializeComponent();
             Con = new Functions();
-           
+            ShowSalries();
+            GetEmployees();
         }
       
         int DSal = 0;
