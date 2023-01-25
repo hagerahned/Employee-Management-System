@@ -176,5 +176,10 @@ namespace Employee_Management_System
             obj.Show();
             obj.Hide();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
