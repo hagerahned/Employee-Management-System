@@ -66,7 +66,7 @@ namespace Employee_Management_System
 
         }
 
-       
+
 
         private void EmpLbl_Click(object sender, EventArgs e)
         {
@@ -79,7 +79,7 @@ namespace Employee_Management_System
         {
             try
             {
-                if (EmpNameTb.Text == "" ||GenCb.SelectedIndex==-1 ||DepCb.SelectedIndex==-1 ||DailySalTb.Text=="")
+                if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
                 {
                     MessageBox.Show("Missing Data!!!");
                 }
@@ -87,12 +87,12 @@ namespace Employee_Management_System
                 {
                     string Name = EmpNameTb.Text;
                     string Gender = GenCb.SelectedItem.ToString();
-                    int  Dep = Convert.ToInt32(DepCb.SelectedValue.ToString());
+                    int Dep = Convert.ToInt32(DepCb.SelectedValue.ToString());
                     string DOB = DOBTb.Value.ToString();
                     string JDate = JDateTb.Value.ToString();
-                    int salary = Convert.ToInt32( DailySalTb.Text);
+                    int salary = Convert.ToInt32(DailySalTb.Text);
                     string Query = "insert into EmployeeTbl values('{0}','{1}','{2}','{3}','{4}','{5}')";
-                    Query = string.Format(Query, Name,Gender,Dep,DOB,JDate,salary);
+                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, salary);
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Employee Added!!!");
