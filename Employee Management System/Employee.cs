@@ -211,16 +211,17 @@ namespace Employee_Management_System
 
         }
 
-        private void DailySalTb_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void label12_Click(object sender, EventArgs e)
         {
             login obj = new login();
             obj.Show();
             obj.Hide();
         }
+        private void DailySalTb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
