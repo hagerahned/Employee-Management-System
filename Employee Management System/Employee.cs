@@ -160,7 +160,7 @@ namespace Employee_Management_System
                     ShowEmp();
                     MessageBox.Show("Employee Added!!!");
                     EmpNameTb.Text = "";
-                    DailySalTb.Text = "";
+                  //  DailySalTb.Text = "";
                     GenCb.SelectedIndex = -1;
                     DepCb.SelectedIndex = -1;
 
