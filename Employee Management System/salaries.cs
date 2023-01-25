@@ -123,8 +123,7 @@ namespace Employee_Management_System
                     int Amount = DSal * Convert.ToInt32(DaysTb.Text);
                     int Days = DSal * Convert.ToInt32(DaysTb.Text);
 
-                    string Query = "insert SalaryTbl values({0},{1},'{2}',{3},'{4}')";
-                    Query = string.Format(Query, EmpCb.SelectedValue.ToString(), Days, period, DateTime.Today.Date);
+                    Days, period, DateTime.Today.Date);
                     Con.SetData(Query);
                     ShowSalries();
                     MessageBox.Show("salaries paid!!!");
