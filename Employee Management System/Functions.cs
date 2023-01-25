@@ -31,17 +31,6 @@ namespace Employee_Management_System
 
         }
 
-        public int SetData(string Query)
-        {
-            int cnt = 0;
-            if (Con.State == ConnectionState.Closed)
-            {
-                Con.Open();
-
-            }
-            cmd.CommandText = Query;
-            cnt = cmd.ExecuteNonQuery();
-            return cnt;
-        }
+        
     }
 }
