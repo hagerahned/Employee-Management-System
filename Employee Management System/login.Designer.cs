@@ -36,6 +36,7 @@ namespace Employee_Management_System
             this.LoginBtn = new System.Windows.Forms.Button();
             this.ResetLbl = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panel1
@@ -107,12 +108,24 @@ namespace Employee_Management_System
             this.label2.TabIndex = 12;
             this.label2.Text = "User Name";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(257, 272);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(116, 32);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "password";
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(838, 506);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.ResetLbl);
             this.Controls.Add(this.LoginBtn);
@@ -140,6 +153,7 @@ namespace Employee_Management_System
         private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Label ResetLbl;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
