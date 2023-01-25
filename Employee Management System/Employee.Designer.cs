@@ -29,8 +29,8 @@ namespace Employee_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,7 +42,6 @@ namespace Employee_Management_System
             this.AddBtn = new System.Windows.Forms.Button();
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.EmployeeList = new System.Windows.Forms.DataGridView();
-            this.DeleteBtn1 = new System.Windows.Forms.Button();
             this.EmpNameTb = new System.Windows.Forms.TextBox();
             this.GenCb = new System.Windows.Forms.ComboBox();
             this.DepCb = new System.Windows.Forms.ComboBox();
@@ -174,18 +173,18 @@ namespace Employee_Management_System
             // 
             // EmployeeList
             // 
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle55;
             this.EmployeeList.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle54.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle54.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle56.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle56.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle56.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle56;
             this.EmployeeList.ColumnHeadersHeight = 29;
             this.EmployeeList.GridColor = System.Drawing.Color.Teal;
             this.EmployeeList.Location = new System.Drawing.Point(428, 291);
@@ -195,18 +194,6 @@ namespace Employee_Management_System
             this.EmployeeList.Size = new System.Drawing.Size(788, 490);
             this.EmployeeList.TabIndex = 70;
             this.EmployeeList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmployeeList_CellContentClick);
-            // 
-            // DeleteBtn1
-            // 
-            this.DeleteBtn1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeleteBtn1.ForeColor = System.Drawing.Color.Teal;
-            this.DeleteBtn1.Location = new System.Drawing.Point(764, 787);
-            this.DeleteBtn1.Name = "DeleteBtn1";
-            this.DeleteBtn1.Size = new System.Drawing.Size(151, 56);
-            this.DeleteBtn1.TabIndex = 71;
-            this.DeleteBtn1.Text = "Delete ";
-            this.DeleteBtn1.UseVisualStyleBackColor = true;
-            this.DeleteBtn1.Click += new System.EventHandler(this.button1_Click);
             // 
             // EmpNameTb
             // 
@@ -343,7 +330,6 @@ namespace Employee_Management_System
             this.Controls.Add(this.DOBTb);
             this.Controls.Add(this.GenCb);
             this.Controls.Add(this.EmpNameTb);
-            this.Controls.Add(this.DeleteBtn1);
             this.Controls.Add(this.EmployeeList);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
@@ -382,7 +368,6 @@ namespace Employee_Management_System
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.DataGridView EmployeeList;
-        private System.Windows.Forms.Button DeleteBtn1;
         private System.Windows.Forms.TextBox EmpNameTb;
         private System.Windows.Forms.ComboBox GenCb;
         private System.Windows.Forms.ComboBox DepCb;
