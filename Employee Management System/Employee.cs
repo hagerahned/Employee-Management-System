@@ -177,7 +177,7 @@ namespace Employee_Management_System
         int key = 0;
         private void EmployeeList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           // EmpNameTb.Text = EmployeeList.CurrentRow.Cells[1].Value.ToString();
+            EmpNameTb.Text = EmployeeList.CurrentRow.Cells[1].Value.ToString();
             GenCb.Text = EmployeeList.CurrentRow.Cells[2].Value.ToString();
             DepCb.SelectedValue = EmployeeList.CurrentRow.Cells[3].Value.ToString();
             DOBTb.Text = EmployeeList.CurrentRow.Cells[4].Value.ToString();
