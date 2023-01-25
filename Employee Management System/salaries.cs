@@ -32,8 +32,7 @@ namespace Employee_Management_System
         string period = "";
         private void GetSalary()
         {
-            string Query = "select * from EmployeeTbl where Empid ={0} ";
-            Query = string.Format(Query, EmpCb.SelectedValue.ToString());
+            
             foreach(DataRow dr in Con.GetData(Query).Rows)
             {
                 DSal = Convert.ToInt32(dr["EmpSal"].ToString());
