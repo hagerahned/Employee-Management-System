@@ -26,7 +26,7 @@ namespace Employee_Management_System
         {
 
         }
-        //button 
+        //button login
         private void button1_Click(object sender, EventArgs e)
         {
             if(UNameTb.Text ==""||PasswordTb.Text=="")
