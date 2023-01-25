@@ -29,14 +29,13 @@ namespace Employee_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.DepList = new System.Windows.Forms.DataGridView();
             this.EditBtn = new System.Windows.Forms.Button();
-            this.AddBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.DepNameTb = new System.Windows.Forms.TextBox();
@@ -86,18 +85,18 @@ namespace Employee_Management_System
             // 
             // DepList
             // 
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DepList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DepList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.DepList.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Constantia", 13.12F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DepList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Constantia", 13.12F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DepList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.DepList.ColumnHeadersHeight = 29;
             this.DepList.GridColor = System.Drawing.Color.Teal;
             this.DepList.Location = new System.Drawing.Point(486, 275);
@@ -119,18 +118,6 @@ namespace Employee_Management_System
             this.EditBtn.Text = "Update";
             this.EditBtn.UseVisualStyleBackColor = true;
             this.EditBtn.Click += new System.EventHandler(this.EditBtn_Click);
-            // 
-            // AddBtn
-            // 
-            this.AddBtn.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddBtn.ForeColor = System.Drawing.Color.Teal;
-            this.AddBtn.Location = new System.Drawing.Point(13, 309);
-            this.AddBtn.Name = "AddBtn";
-            this.AddBtn.Size = new System.Drawing.Size(151, 54);
-            this.AddBtn.TabIndex = 37;
-            this.AddBtn.Text = "Add";
-            this.AddBtn.UseVisualStyleBackColor = true;
-            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // label5
             // 
@@ -235,7 +222,6 @@ namespace Employee_Management_System
             this.Controls.Add(this.label10);
             this.Controls.Add(this.EmbLbl);
             this.Controls.Add(this.EditBtn);
-            this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.DepNameTb);
@@ -264,7 +250,6 @@ namespace Employee_Management_System
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView DepList;
         private System.Windows.Forms.Button EditBtn;
-        private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox DepNameTb;
