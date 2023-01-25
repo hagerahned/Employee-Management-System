@@ -39,8 +39,7 @@ namespace Employee_Management_System
                 DSal = Convert.ToInt32(dr["EmpSal"].ToString());
             }
            
-            //MessageBox.Show("" + DSal);
-           // EmpCb.DataSource = Con.GetData(Query);
+            
            if(DaysTb.Text == "")
             {
                 AmountTb.Text = "Rs" + (d * DSal);
