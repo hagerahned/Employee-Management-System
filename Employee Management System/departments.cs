@@ -151,13 +151,7 @@ namespace Employee_Management_System
             obj.Hide();
         }
 
-        private void label11_Click(object sender, EventArgs e)
-        {
-            salaryf obj = new salaryf();
-            obj.Show();
-            obj.Hide();
-
-        }
+       
 
         private void logout_Click(object sender, EventArgs e)
         {
