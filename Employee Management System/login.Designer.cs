@@ -85,7 +85,7 @@ namespace Employee_Management_System
             this.label2.Size = new System.Drawing.Size(135, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "User Name";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+           // this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -97,7 +97,7 @@ namespace Employee_Management_System
             this.label3.Size = new System.Drawing.Size(116, 32);
             this.label3.TabIndex = 5;
             this.label3.Text = "password";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+           // this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // LoginBtn
             // 
