@@ -23,7 +23,7 @@ namespace Employee_Management_System
         {
             if(UNameTb.Text ==""||PasswordTb.Text=="")
             {
-                MessageBox.Show("missing data");
+                MessageBox.Show("Missing Data");
             }
             else if(UNameTb.Text=="Admin" && PasswordTb.Text=="Password")
             {
