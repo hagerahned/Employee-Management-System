@@ -38,9 +38,7 @@ namespace Employee_Management_System
             foreach (DataRow dr in Con.GetData(Query).Rows)
             {
                 DSal = Convert.ToInt32(dr["EmpSal"].ToString());
-            }
-           
-            
+            }       
            if(DaysTb.Text == "")
             {
                 AmountTb.Text = "Rs" + (d * DSal);
