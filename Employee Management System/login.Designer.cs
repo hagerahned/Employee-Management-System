@@ -31,7 +31,6 @@ namespace Employee_Management_System
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.UNameTb = new System.Windows.Forms.TextBox();
             this.PasswordTb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -59,14 +58,6 @@ namespace Employee_Management_System
             this.label1.TabIndex = 0;
             this.label1.Text = "Employee M S";
             // 
-            // UNameTb
-            // 
-            this.UNameTb.Location = new System.Drawing.Point(262, 205);
-            this.UNameTb.Multiline = true;
-            this.UNameTb.Name = "UNameTb";
-            this.UNameTb.Size = new System.Drawing.Size(316, 49);
-            this.UNameTb.TabIndex = 2;
-            // 
             // PasswordTb
             // 
             this.PasswordTb.Location = new System.Drawing.Point(262, 298);
@@ -85,7 +76,6 @@ namespace Employee_Management_System
             this.label2.Size = new System.Drawing.Size(135, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "User Name";
-           // this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -97,7 +87,6 @@ namespace Employee_Management_System
             this.label3.Size = new System.Drawing.Size(116, 32);
             this.label3.TabIndex = 5;
             this.label3.Text = "password";
-           // this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // LoginBtn
             // 
@@ -134,7 +123,6 @@ namespace Employee_Management_System
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.PasswordTb);
-            this.Controls.Add(this.UNameTb);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -152,7 +140,6 @@ namespace Employee_Management_System
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox UNameTb;
         private System.Windows.Forms.TextBox PasswordTb;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
