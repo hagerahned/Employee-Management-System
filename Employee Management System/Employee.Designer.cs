@@ -29,8 +29,8 @@ namespace Employee_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -174,18 +174,18 @@ namespace Employee_Management_System
             // 
             // EmployeeList
             // 
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle53;
             this.EmployeeList.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle52.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle52.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle52.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle54.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle54.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle54.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle54;
             this.EmployeeList.ColumnHeadersHeight = 29;
             this.EmployeeList.GridColor = System.Drawing.Color.Teal;
             this.EmployeeList.Location = new System.Drawing.Point(428, 291);
@@ -200,7 +200,7 @@ namespace Employee_Management_System
             // 
             this.DeleteBtn1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn1.ForeColor = System.Drawing.Color.Teal;
-            this.DeleteBtn1.Location = new System.Drawing.Point(773, 797);
+            this.DeleteBtn1.Location = new System.Drawing.Point(764, 787);
             this.DeleteBtn1.Name = "DeleteBtn1";
             this.DeleteBtn1.Size = new System.Drawing.Size(151, 56);
             this.DeleteBtn1.TabIndex = 71;
