@@ -22,7 +22,15 @@ namespace Employee_Management_System
             cmd.Connection = Con;
 
         }
-       
+        public DataTable GetData(string Query)
+        {
+            dt = new DataTable();
+            sda = new SqlDataAdapter(Query, Con);
+            sda.Fill(dt);
+            return dt;
+
+        }
+
         public int SetData(string Query)
         {
             int cnt = 0;
