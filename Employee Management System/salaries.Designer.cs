@@ -29,8 +29,8 @@ namespace Employee_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,7 +42,6 @@ namespace Employee_Management_System
             this.EmpCb = new System.Windows.Forms.ComboBox();
             this.DaysTb = new System.Windows.Forms.TextBox();
             this.PeriodTb = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.SalaryLbl = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -52,7 +51,6 @@ namespace Employee_Management_System
             this.AddBtn = new System.Windows.Forms.Button();
             this.AmountTb = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SalaryList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -171,14 +169,6 @@ namespace Employee_Management_System
             this.PeriodTb.Size = new System.Drawing.Size(315, 34);
             this.PeriodTb.TabIndex = 45;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(946, 141);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(96, 50);
-            this.pictureBox2.TabIndex = 67;
-            this.pictureBox2.TabStop = false;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -229,18 +219,18 @@ namespace Employee_Management_System
             // 
             // SalaryList
             // 
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.SalaryList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.SalaryList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.SalaryList.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.SalaryList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SalaryList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.SalaryList.ColumnHeadersHeight = 29;
             this.SalaryList.GridColor = System.Drawing.Color.Teal;
             this.SalaryList.Location = new System.Drawing.Point(406, 272);
@@ -293,7 +283,6 @@ namespace Employee_Management_System
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.SalaryList);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.SalaryLbl);
             this.Controls.Add(this.label10);
@@ -318,7 +307,6 @@ namespace Employee_Management_System
             this.Load += new System.EventHandler(this.salaries_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SalaryList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -337,7 +325,6 @@ namespace Employee_Management_System
         private System.Windows.Forms.ComboBox EmpCb;
         private System.Windows.Forms.TextBox DaysTb;
         private System.Windows.Forms.DateTimePicker PeriodTb;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label SalaryLbl;
         private System.Windows.Forms.Label label10;
