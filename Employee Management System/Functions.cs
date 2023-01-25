@@ -9,9 +9,7 @@ namespace Employee_Management_System
 {
     class Functions
     {
-        private SqlConnection Con;
-        private SqlCommand cmd;
-        private DataTable dt;
+        
         private SqlDataAdapter sda;
         private string ConStr;
         public Functions()
