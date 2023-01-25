@@ -61,22 +61,22 @@ namespace Employee_Management_System
         }
 
         int key = 0;
+
         private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             //int n = e.RowIndex;
             DepNameTb.Text = DepList.CurrentRow.Cells[1].Value.ToString();
-            if(DepNameTb.Text =="")
+            if (DepNameTb.Text == "")
             {
                 key = 0;
             }
             else
             {
-               key = Convert.ToInt32(DepList.CurrentRow.Cells[0].Value.ToString());
+                key = Convert.ToInt32(DepList.CurrentRow.Cells[0].Value.ToString());
             }
 
         }
 
-        
 
         private void EditBtn_Click(object sender, EventArgs e)
         {
