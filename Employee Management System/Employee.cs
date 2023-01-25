@@ -97,14 +97,14 @@ namespace Employee_Management_System
                     EmpNameTb.Text = "";
                     DailySalTb.Text = "";
                     GenCb.SelectedIndex = -1;
-                   // DepCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
 
                 }
 
             }
             catch (Exception Ex)
             {
-                MessageBox.Show(Ex.Message);
+               // MessageBox.Show(Ex.Message);
             }
 
         }
