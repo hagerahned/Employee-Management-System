@@ -36,6 +36,7 @@ namespace Employee_Management_System
             this.label3 = new System.Windows.Forms.Label();
             this.LoginBtn = new System.Windows.Forms.Button();
             this.ResetLbl = new System.Windows.Forms.Label();
+            this.UNameTb = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // panel1
@@ -112,12 +113,21 @@ namespace Employee_Management_System
             this.ResetLbl.Text = "Reset";
             this.ResetLbl.Click += new System.EventHandler(this.label4_Click);
             // 
+            // UNameTb
+            // 
+            this.UNameTb.Location = new System.Drawing.Point(262, 205);
+            this.UNameTb.Multiline = true;
+            this.UNameTb.Name = "UNameTb";
+            this.UNameTb.Size = new System.Drawing.Size(316, 49);
+            this.UNameTb.TabIndex = 8;
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(838, 506);
+            this.Controls.Add(this.UNameTb);
             this.Controls.Add(this.ResetLbl);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.label3);
@@ -145,6 +155,7 @@ namespace Employee_Management_System
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Label ResetLbl;
+        private System.Windows.Forms.TextBox UNameTb;
     }
 }
 
