@@ -33,7 +33,7 @@ namespace Employee_Management_System
             }
             else
             {
-                MessageBox.Show("Wrong username or password");
+                MessageBox.Show("Wrong Username or password");
                 UNameTb.Text = "";
                 PasswordTb.Text = "";
             }
